@@ -1,0 +1,257 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\lixeonCalculator.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\lixeonCalculator.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_lixeonCalculator_DIALOG DIALOGEX 0, 0, 307, 248
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Lixeon's  Calculator"
+FONT 12, "宋体", 400, 0, 0x86
+BEGIN
+    EDITTEXT        IDC_EDIT1,40,18,235,29,ES_RIGHT | ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL | NOT WS_TABSTOP,WS_EX_RIGHT
+    CONTROL         "弧度",IDC_HUDU,"Button",BS_AUTORADIOBUTTON,250,59,32,10
+    CONTROL         "角度",IDC_JIAODU,"Button",BS_AUTORADIOBUTTON,209,59,32,10
+    PUSHBUTTON      "0",IDC_BUTTON0,172,205,27,23,NOT WS_TABSTOP
+    PUSHBUTTON      "1",IDC_BUTTON1,140,173,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "2",IDC_BUTTON2,172,173,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "+",IDC_BUTTON_ADD,237,173,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "C",IDC_BUTTON_CLEAR,204,85,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "Exp",IDC_EXP,72,145,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "ln",IDC_LN,106,173,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "tan",IDC_TAN,106,85,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "3",IDC_BUTTON3,204,173,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "4",IDC_BUTTON4,140,145,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "5",IDC_BUTTON5,172,145,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "-",IDC_BUTTON_MINUS,237,145,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "√",IDC_BUTTON_SQRT,72,203,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "log",IDC_LOG,72,173,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "arctan",IDC_ARCTAN,106,113,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "x^y",IDC_XDEY,36,145,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "6",IDC_BUTTON6,204,145,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "7",IDC_BUTTON7,140,113,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "8",IDC_BUTTON8,172,113,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "×",IDC_BUTTON_MUTIPLY,237,113,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "1/x",IDC_BUTTON_RECI,172,85,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "cos",IDC_COS,72,85,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "arccos",IDC_ARCCOS,72,113,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "2^x",IDC_3DEX,36,203,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "+/-",IDC_BUTTON_SIGN,140,203,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      ".",IDC_BUTTON_POINT,204,203,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "÷",IDC_BUTTON_DIV,237,85,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "=",IDC_BUTTON_EQUAL,237,203,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "sin",IDC_SIN,36,85,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "arcsin",IDC_ARCSIN,36,113,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "n!",IDC_NJIECHENG,106,203,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "9",IDC_BUTTON9,204,113,27,25,NOT WS_TABSTOP
+    LTEXT           "扬大信工院 软件1502 李敬牌简易计算器 Ver 3.1",IDC_STATIC,15,61,183,9,NOT WS_GROUP,WS_EX_TRANSPARENT
+    PUSHBUTTON      "π",IDC_PI,140,85,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "Mod",IDC_MOD,106,145,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "x^2",IDC_2DEX,36,173,27,25,NOT WS_TABSTOP
+    PUSHBUTTON      "关于作者",IDC_About,274,174,24,54,BS_MULTILINE | NOT WS_TABSTOP
+    PUSHBUTTON      "表达式计算",IDC_bdscal,274,85,24,54,BS_MULTILINE | NOT WS_TABSTOP
+    CTEXT           "※",IDC_STATIC,275,155,21,10
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 186, 90
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于作者"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,129,6,50,14
+    PUSHBUTTON      "返回",IDCANCEL,129,24,50,14
+    LTEXT           "计算器仍有功能不完善的地方",IDC_STATIC,7,18,105,8
+    LTEXT           "比如退格等想要模拟真正计算器的并没有能够实现",IDC_STATIC,6,50,177,8
+    LTEXT           "一些科学计算没有设置精度",IDC_STATIC,7,35,105,8
+    LTEXT           "扬州大学 软件1502 李敬 C++ MFC QQ  394139307",IDC_STATIC,7,67,177,8
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 270, 183
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "数学表达式计算"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "运算",IDOK,67,152,50,14
+    PUSHBUTTON      "返回",IDCANCEL,153,152,50,14
+    EDITTEXT        IDC_EDIT1,7,7,256,134,ES_MULTILINE,WS_EX_RIGHT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,1,6
+ PRODUCTVERSION 2,0,1,6
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "vs2005/Lixeon"
+            VALUE "FileDescription", "calculator"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "LijingsCal.exe"
+            VALUE "LegalCopyright", "Lixeon"
+            VALUE "OriginalFilename", "LijingsCal.exe"
+            VALUE "ProductName", "LijingsCalculator"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_lixeonCalculator_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 298
+        VERTGUIDE, 226
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 240
+        HORZGUIDE, 132
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 lixeonCalculator(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\lixeonCalculator.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
